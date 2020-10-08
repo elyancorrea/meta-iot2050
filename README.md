@@ -125,3 +125,14 @@ device.
 
 NOTE: This selection is not persistent. The boot loader will fall back to its
 default boot order after reset.
+
+## Formatting eMMC
+
+To format eMMC, you must be running from SD and type this on shell:
+
+```shell
+mkfs.ext4 /dev/mmcbkl1
+```
+After this, press "y" and press enter.
+
+
